@@ -69,7 +69,7 @@ public class MyTemplatePDF {
             } catch (Exception e) {
                 System.err.println(e.getMessage());
             }            
-            documento.add(image);
+            documento.add(image);//Agrega la imagen al documento  
             documento.add(image2);//Agrega la imagen al documento           
             documento.add(titulo);
             documento.add(new Paragraph(" "));

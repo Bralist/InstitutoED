@@ -103,7 +103,7 @@ public class ColdiImpl implements ColdiInterface{
         //APUNTA A LA CABECERA
         ColdiNodo iterador = this.cabecera;
         //RECORRE LA LISTA
-        while (iterador != null) {   //CONCATENA EL CONTENIDO DEL NODO A LA CADENA DE TEXTO
+        while (iterador != null) {
             if (iterador.getElemento() != null) {                
                 initDatos(iterador.getElemento());
             }
@@ -119,7 +119,7 @@ public class ColdiImpl implements ColdiInterface{
         }                
         ColdiNodo iterador = this.cabecera;
         //RECORRE LA LISTA
-        while (iterador != null) {   //CONCATENA EL CONTENIDO DEL NODO A LA CADENA DE TEXTO
+        while (iterador != null) {
             if (iterador.getElemento() != null) {                
                 if(iterador.getElemento().getEdad() == edad){
                     lista.enqueue(new ColdiNodo(iterador.getElemento()));
@@ -137,7 +137,7 @@ public class ColdiImpl implements ColdiInterface{
         }                
         ColdiNodo iterador = this.cabecera;
         //RECORRE LA LISTA
-        while (iterador != null) {   //CONCATENA EL CONTENIDO DEL NODO A LA CADENA DE TEXTO
+        while (iterador != null) {
             if (iterador.getElemento() != null) {                
                 if(iterador.getElemento().getSexo().equals(sexo)){
                     lista.enqueue(new ColdiNodo(iterador.getElemento()));
@@ -155,7 +155,7 @@ public class ColdiImpl implements ColdiInterface{
         }                
         ColdiNodo iterador = this.cabecera;
         //RECORRE LA LISTA
-        while (iterador != null) {   //CONCATENA EL CONTENIDO DEL NODO A LA CADENA DE TEXTO
+        while (iterador != null) {
             if (iterador.getElemento() != null) {                
                 if(iterador.getElemento().getDepartamento().equals(filtro)){
                     lista.enqueue(new ColdiNodo(iterador.getElemento()));
@@ -173,7 +173,7 @@ public class ColdiImpl implements ColdiInterface{
         }                
         ColdiNodo iterador = this.cabecera;
         //RECORRE LA LISTA
-        while (iterador != null) {   //CONCATENA EL CONTENIDO DEL NODO A LA CADENA DE TEXTO
+        while (iterador != null) {
             if (iterador.getElemento() != null) {                
                 if(iterador.getElemento().getProvincia().equals(provincia)){
                     lista.enqueue(new ColdiNodo(iterador.getElemento()));
@@ -191,7 +191,7 @@ public class ColdiImpl implements ColdiInterface{
         }                
         ColdiNodo iterador = this.cabecera;
         //RECORRE LA LISTA
-        while (iterador != null) {   //CONCATENA EL CONTENIDO DEL NODO A LA CADENA DE TEXTO
+        while (iterador != null) {
             if (iterador.getElemento() != null) {                
                 if(iterador.getElemento().getDistrito().equals(distrito)){
                     lista.enqueue(new ColdiNodo(iterador.getElemento()));
@@ -209,7 +209,7 @@ public class ColdiImpl implements ColdiInterface{
         }                
         ColdiNodo iterador = this.cabecera;
         //RECORRE LA LISTA
-        while (iterador != null) {   //CONCATENA EL CONTENIDO DEL NODO A LA CADENA DE TEXTO
+        while (iterador != null) {
             if (iterador.getElemento() != null) {                
                 if(iterador.getElemento().getTipo_muestra().equals(tipo)){
                     lista.enqueue(new ColdiNodo(iterador.getElemento()));
@@ -227,7 +227,7 @@ public class ColdiImpl implements ColdiInterface{
         }                
         ColdiNodo iterador = this.cabecera;
         //RECORRE LA LISTA
-        while (iterador != null) {   //CONCATENA EL CONTENIDO DEL NODO A LA CADENA DE TEXTO
+        while (iterador != null) {
             if (iterador.getElemento() != null) {                
                 if(iterador.getElemento().getResultado().equals(resultado)){
                     lista.enqueue(new ColdiNodo(iterador.getElemento()));

@@ -12,7 +12,6 @@ import java.util.Date;
  */
 public class Prueba {
     //ATRIBUTOS
-   // private Integer fila;
     private String UUID;
     private Date fecha_muestra;
     private Date fecha_corte;
@@ -52,14 +51,6 @@ public class Prueba {
     }
     
     //METODOS GETTER AND SETTER
-//    public Integer getFila() {
-//        return fila;
-//    }
-//
-//    public void setFila(Integer fila) {
-//        this.fila = fila;
-//    }    
-
     public String getUUID() {
         return UUID;
     }
